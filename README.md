@@ -45,6 +45,12 @@ log
 ---
 A lightweight implementation of log library.
 
+rwlocklib
+---------
+Due to current pthread rwlock cannot control the priority of read/write, so I wrote this library.
+
+This implementation is read first, but you can modify it to write first easily.
+
 slab
 ----
 A simple memory allocator implemented of slab algorithm.
